@@ -1,0 +1,20 @@
+Michajlo Matijkiw
+
+This code is neither pretty nor heavily tested, but it's great for killing time.
+
+list.c/.h are very general implementations I created back in school, so a lot of the code probably isn't used here.
+
+I know curses could be used, but my goal was to get familiar with VT100 codes.  I may port it to curses later.
+
+If the score is coming up within the bottom wall, then your terminal probably isn't big enough.
+
+Possible improvements:
+ - colors (I started to do this but couldn't settle on a color scheme)
+ - signal handler to clear screen on exit
+ - more configurability?
+
+To change the speed edit the value passed to usleep (search for it, theres only one).
+
+To change the size, change the #defines at the top of the file.
+
+Share with friends and family, everyone gets bored.
